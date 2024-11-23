@@ -167,7 +167,7 @@ h4{
     .lorem{
         width: auto;
     }
-    .info,.links{
+    .links{
         flex-direction: column;
         align-content: center;
     }
