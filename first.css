@@ -157,15 +157,22 @@ h4{
     border-color: rgb(55, 92, 255);
     margin-right: 5rem;
 }
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 352px){
     .container{
-        padding: 0rem 4rem 0rem 4rem;
+        padding: 0rem 3rem 0rem 3rem;
     }
     .Message,.search,.no{
         width: auto;
     }
     .lorem{
         width: auto;
+    }
+    .info,.links{
+        flex-direction: column;
+        align-content: center;
+    }
+    .archive{
+        width: 1vw;
     }
 }
 .container2{
